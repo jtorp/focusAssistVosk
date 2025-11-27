@@ -2,9 +2,39 @@
 
 Lightweight Vosk model assistant for offline/online voice recognition in English.
 
-## Setup
+## VOSK
+Used for offline speech recognition.
+
+### Wake Word Detection 
+
+Continuous listening for "hey you", "okay you", etc.
+Fast, always-on, zero latency
+### Command Transcription 
+
+Records audio after wake word is detected
+Transcribes full commands entirely offline using Vosk
+No API calls, no costs, complete privacy
+**Advantages:**
+- ✅ 100% Offline – Everything runs locally, no cloud dependency
+- ✅ Zero API Costs – No external service charges
+- ✅ Privacy – Audio never leaves your device
+- ✅ Low Latency – No network round-trips
+- ✅ Bilingual Support – English & Russian models
+
+**Best For:**
+- Straightforward, routine commands (e.g., "play white noise ", "shuffle rock")
+- Short, predictable user utterances
+- Always-on voice assistants with consistent command patterns
+
+**Trade-offs:**
+- ❌ Lower accuracy on complex/ambiguous speech
+- ❌ Weak with heavy background noise
+- ❌ Limited context understanding (no semantic awareness)
+- ❌ No punctuation/capitalization in output
+- ❌ Static model – cannot improve over time
 
 ### Download Vosk Models
+List of Vosk models: https://alphacephei.com/vosk/models
 
 The project uses offline Vosk models for speech recognition. You need to download them locally:
 
