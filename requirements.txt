@@ -1,0 +1,7 @@
+vosk
+pyaudio
+spotipy
+openai
+python-dotenv
+colorlog
+pytest
